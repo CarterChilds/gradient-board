@@ -61,7 +61,6 @@ class App extends Component {
     ]
   };
   render() {
-    // console.log(this.state);Î
     let gradientCard = this.state.gradient.map((item, i) => (
       <>
         <div className="card">

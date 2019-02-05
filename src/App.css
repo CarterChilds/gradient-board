@@ -40,6 +40,7 @@ nav {
   justify-content: center;
   transition: 0.4s;
   border-radius: 5%;
+  padding: 0;
 }
 
 .card:hover {
@@ -50,8 +51,8 @@ nav {
 
 .gradient {
   height: 40%;
-  width: 45%;
-  border-radius: 50%;
+  width: 100%;
+  /* border-radius: 50%; */
 }
 .tag {
   margin-top: 5%;
