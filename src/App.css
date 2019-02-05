@@ -1,32 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i");
+
 .App {
+  font-family: "Ubuntu", sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #080808;
   min-height: 100vh;
+}
+
+nav {
+  color: white;
+  font-size: 1.3em;
+  font-family: "Ubuntu", sans-serif;
+  height: 10vh;
+  background: #f0f2f0; /* fallback for old browsers */
+  background: linear-gradient(to right, #000000, #434343);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.main {
+  min-height: 100vh;
+  background: transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background: #3D3D3D;
+  height: 41vh;
+  width: 19%;
+  margin-left: 5%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  transition: 0.3s;
+  border-radius: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  box-shadow:3px 3px 55px 16px rgba(186,186,186,0.54)
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gradient {
+  height: 40%;
+  width: 45%;
+  border-radius: 50%;
+}
+.tag {
+  margin-top: 5%;
+  height: 13%;
+  cursor: pointer;
 }
