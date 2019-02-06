@@ -64,14 +64,14 @@ class App extends Component {
     let gradientCard = this.state.gradient.map((item, i) => (
       <>
         <div className="card">
-          <h3>{item.name}</h3> <br />
+          <h2>{item.name}</h2> <br />
           <div style={{ background: item.background }} className="gradient" />
           <CopyToClipboard
             text={item.background}
             onCopy={() =>
               Swal.fire({
                 type: "success",
-                timer: 2000,
+                timer: 1600,
                 title: "Copied To Clipboard"
               })
             }
