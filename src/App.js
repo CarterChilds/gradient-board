@@ -42,6 +42,10 @@ class App extends Component {
         background: "linear-gradient(to right, #eb5757, #000000)"
       },
       {
+        name: "Snapchat",
+        background: "linear-gradient(to right, #fffc00, #ffffff)"
+      },
+      {
         name: "Moonlit Asteroid",
         background: "linear-gradient(to right, #0f2027, #203a43, #2c5364)"
       },
@@ -57,7 +61,19 @@ class App extends Component {
       {
         name: "Stripe",
         background: "linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb)"
-      }
+      },
+      {
+        name: "Instagram",
+        background: "linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)"
+      },
+      {
+        name: "Cool Sky",
+        background: "linear-gradient(to right, #2980b9, #6dd5fa, #ffffff)"
+      },
+      {
+        name: "SoundCloud",
+        background: "linear-gradient(to right, #fe8c00, #f83600)"
+      },
     ]
   };
   render() {
